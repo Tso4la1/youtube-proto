@@ -1,0 +1,383 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+/* For the first layer Navbar styling */
+
+.flex{
+    display: flex;
+}
+.flex-center{
+    justify-content: center;
+}
+.flex-align{
+    align-items: center;
+}
+.flex-gap1{
+    flex: 1;
+}
+.flex-dir{
+    flex-direction: column;
+}
+.flex-dir2{
+    flex-direction: row;
+}
+.flex-bt{
+    justify-content: space-around;
+    
+}
+.flex-Bt{
+    justify-content:space-between ;
+}
+.fgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.rgap{
+    row-gap: 25px;
+}
+.cgap{
+    column-gap: 18px;
+}
+.ham{
+    background: #4f0a0a;
+    margin: 3px;
+    width: 18px;
+    height: 2px;
+    border-radius: 10px;
+}
+.m1{
+    margin: 0 20px 0 20px;
+}
+.m2{
+    margin: 0 4px 0 1px;
+}
+.m3{
+    margin: 0 0 10px 3px;
+}
+.m4{
+    margin: 0 25px 0 2px;
+}
+.m-t1{
+    margin-top: 10px;
+}
+
+.pt-1{
+    padding-top: 10px;
+}
+.pb-1{
+    padding-bottom: 10px;
+}
+.ml-1{
+    margin-left: 100px;
+}
+.ml-3{
+    margin-left: 19px;
+}
+
+.ml-4{
+    margin-left: -25px;
+}
+.ml-5{
+    margin-left: 60px;
+}
+.mr-1{
+    margin-right: 10px ;
+}
+.mr-2{
+    margin-right: 50px ;
+}
+.mb-1{
+    margin-bottom: 3px;
+}
+
+.fw-1{
+    font-weight: 400;
+}
+.fw-2{
+    font-weight: 500;
+}
+fw-3{
+    font-weight: 700;
+}
+.fw-4{
+    font-weight: 900;
+}
+.lsp{
+    letter-spacing: -3px;
+}
+.fs-1{
+    font-size: 18px;
+}
+.fs-2{
+    font-size: 10px;
+}
+.input-bar{
+    width: 450px; 
+    height: 35px;
+    border-top-left-radius:16px;
+    border-bottom-left-radius: 16px;
+    border: 1px solid lightgrey;
+    box-shadow: 1px 0.5px 0.8px rgba(0, 0, 0, 0.16);
+    padding-left: 10px;
+    font-size: 14px;
+}
+.B{
+    border:none;
+    background: white;
+}
+.w-1{
+    width:  340px;
+}
+.w-2{
+    width: 250px;
+}
+
+.w-3{
+    width: 300px;
+}
+.w-4{
+    width: 50px;
+}
+.w-5{
+    width: 30px;
+}
+.col-1{
+    background: white;
+}
+.col-2{
+    background: blue;
+}
+.col-3{
+    background: green;
+}
+.col-4{
+    background: red;
+}
+
+/* .h-1{
+    height:10px;
+}
+.h-2{
+    height: 20px;
+}
+.h-3{
+    height: 35px;
+}
+.h-4{
+    height: 40px;
+}
+.h-5{
+    height: 60px;
+}
+.h-6{
+    height: 70px;
+}
+.h-7{
+    height: 80px;
+}
+.h-8{
+    height: 80px;
+} */
+.border-1{
+    border:1px solid lightgrey
+}
+.search-icon{
+    margin-left: -1px ;
+    box-shadow: 1px 0.5px 0.7px rgba(0, 0, 0, 0.16);
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    background-color: #f0e7e7b9;
+}
+.float{
+    justify-content: right;
+}
+.post-1{
+    position: relative;
+}
+.post-2{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* bottom: 100px; */
+}
+.post-3{
+    position: absolute;
+}
+.L{
+    left:8px;
+    background-color: rgb(199, 10, 10);
+    color: white;
+    padding: 1.5px;
+    border-radius: 8px;
+}
+.Bt{
+    bottom:13px;
+}
+
+.Br{
+    border-radius: 15px;
+}
+.Br2{
+    border-radius: 20px;
+}
+.z-1{
+    z-index: 0;
+}
+.z-2{
+    z-index: 100;
+}
+
+/* For the second layer subnav styling*/
+
+
+.bg{
+    background: rgba(120, 111, 111, 0.183);
+}
+
+/*beginning of Horizontal scroll*/
+
+.sub{
+    align-items: center;
+    overflow-x:hidden;
+    margin-left: 211px ; 
+    margin-top: 63px;
+     
+}
+.flow{
+    margin-right: 10px;
+    padding: 7px 6px 5px 7px;
+    font-size: 11px;
+    border: none;
+    border-radius: 5px;
+    color: rgba(12, 10, 10, 0.712);
+    white-space: nowrap;
+    
+} 
+/*endinning of Horizontal scroll*/
+
+.max1{
+    width:100%;
+    margin-left: 211px;
+    margin-top: 30px ;
+    /* background-color: blue; */
+}
+.ml-2{
+    margin-left: 6px;
+  
+    
+}
+
+.info-p{
+    margin-top: 10px;
+    
+}
+.tit-aut{
+    width: 230px;
+    font-size: 12px;
+    color: rgb(78, 72, 72);
+    margin-bottom: 5px;
+    line-height: 17px;
+}
+.tit-info{
+    width: 230px;
+    font-size: 10px;
+    margin-bottom: 18px;
+    color: rgb(117, 114, 114);
+}
+
+/* The sidebar styling*/
+
+.takeffet{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 400px;
+    /* background-color: pink; */
+}
+
+.sidbar{
+    position: fixed;
+    top: 57px;
+    left: 0;
+    bottom: 0;
+    z-index: 3;
+    /* background-color: #4f0a0a; */
+    width: 220px;
+    /* display: inline-block; */
+    /* justify-content: center; */
+    /* background-color: gray; */
+}
+
+/* .sidIcon{
+    position: absolute;
+    left: 16px
+} */
+ /* .sidText{
+    
+ } */
+
+
+ /* .si{
+
+    display: flex;
+    align-items: center;
+    width:200px;
+    height: 40px;
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: 500;
+     transition: background-color ease-in-out forwards 500ms; 
+ }
+
+.slide :hover{
+    background-color: rgba(128, 128, 128, 0.572);
+    border-radius: 15px;
+    width: 150px;
+    height: 30px;
+    padding: 8px;
+    font-weight: 700;
+}
+
+.hor{
+    margin-top: 10px ;
+    margin-bottom: 10px;
+    border: -0.9px solid rgba(128, 128, 128, 0.368);
+} */
+
+
+/*sidebar styling*/
+.container{
+    position: fixed;
+    background-color: #fff;
+    
+} 
+.sidebar{
+    background: #fff;
+    color: #000;
+    
+    margin-top: -25px;
+    
+}
+.top-section{
+    display: flex;
+    align-items: center;
+    /* position: fixed; */
+}
+.link{
+    display: flex;
+    font-size: 14px;
+    padding: 10px 15px;
+    gap: 16px;
+    transition: all 0.5s;
+}
+.link :hover{
+    background: lightgray;
+    transition: all 0.5s;
+    border-radius: 5px;
+    
+}
