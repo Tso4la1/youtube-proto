@@ -1,6 +1,6 @@
 import React from 'react';
 import { ProPic } from '../../atoms/ProPic';
-import { Thumbnails } from '../../atoms/thumbnails';
+import { Thumbnails } from '../Thumbnails';
 import { TemplatePage } from '../../template/TemplatePage';
 import { Title } from '../../atoms/Title';
 import { Text } from '../../atoms/Text';
